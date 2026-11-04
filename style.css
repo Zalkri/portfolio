@@ -8,6 +8,7 @@ body{
     background-color: #022122;
     color: white;
 }
+/* topo da pagina*/
 .header{
     background-color: #1e293b;
     position: sticky;
@@ -38,3 +39,11 @@ body{
 nav a:hover{
     color: #a52323;
 }
+
+/*Pagina Contato*/
+
+/*Pagina Principal*/
+/*Pagina Projetos*/
+/*Pagina artigos*/
+/*Pagina Habilidades*/
+/*Pagina Sobre*/
