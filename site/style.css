@@ -297,14 +297,7 @@ nav a:hover{
   flex-direction: column;
   gap: 1.2rem;
 }
-.skill-info {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #cbd5e1;
-  margin-bottom: 0.4rem;
-}
+
 .skills-subtitle {
   color: #94a3b8;
   font-size: 0.95rem;
