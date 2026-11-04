@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio - Contato</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li ><a href="sobre.html">Sobre</a></li>
+                        <li ><a href="habilidades.html">Habilidades</a></li>
+                        <li ><a href="projetos.html">Projetos</a></li>
+                        <li ><a href="contato.html">Contato</a></li>
+                        <!-- <li ><a href="artigos.html">Artigos</a></li> -->
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="container page-content">
+            <section class="contact-section">
+                <div class="contact-info">
+                    <div class="social-links">
+                        <h2>Vamos conversar?</h2>
+                        <p>estarei disponivel por estas redes</p>
+                        <a href="https://wa.me/5577998338083?text=Ol%C3%A1!%20Vim%20pelo%20link%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank" rel="noopener noreferrer" class="social-btn whatsapp">
+                            💬 WhatsApp
+                        </a>
+                        <a href="https://www.linkedin.com/in/paulo-henrique-castro-correia-740bb0448/" target="_blank" rel="noopener noreferrer" class="social-btn linkedin">
+                            💼 LinkedIn
+                        </a>
+                        <a href="https://github.com/Zalkri" target="_blank" rel="noopener noreferrer" class="social-btn github">
+                            💻 GitHub
+                        </a>
+                    </div> 
+                </div>
+                <!-- Formulario -->
+                <form action="mailto:@paulohenriquecastrocorreia@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                    <h2>Envie uma mensagem</h2>
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input 
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Digite seu nome"
+                            required minlength="3">
+                        <span class="error-mensagem">Por favor pelo menos 3 caracteres</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email"
+                        id="email"
+                        name="email"
+                        placeholder="exemplo@gmail.com"
+                        required>
+                        <span class="error-mensagem">por favor insira um E-mail valido</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <input type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Assunto da mensagem"
+                        required>
+                        <span class="error-mensagem">O assunto é obrigatório</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea 
+                        name="message" 
+                        id="message"
+                        rows="5"
+                        placeholder="Escreva sua mensagem aqui"
+                        required minlength="10"
+                        ></textarea>
+                        <span class="error-mensagem">A mensagem deve conter no mínimo 10 caracteres.</span>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
